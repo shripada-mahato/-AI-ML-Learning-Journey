@@ -5,6 +5,6 @@ data = {
     'ROLL':[54,98,3,98],
     'DEPT':['CS','MANAGEMENT','FINANCE','PSYCHOLOGY']
 }
-
 df = pd.DataFrame(data)
-print(df.to_string())
+add_new_column = df.insert(3,"Marks",[98,67,97,25])
+print(df.to_string(index=False))
