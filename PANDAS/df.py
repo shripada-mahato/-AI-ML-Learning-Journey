@@ -7,4 +7,6 @@ data = {
 }
 df = pd.DataFrame(data)
 add_new_column = df.insert(3,"Marks",[98,67,97,25])
-print(df.to_string(index=False))
+
+filter_data = df[df["Marks"]>80]
+print(filter_data.to_string(index=False))
