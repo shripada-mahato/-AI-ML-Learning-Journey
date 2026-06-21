@@ -27,5 +27,11 @@ Build strong AI/ML fundamentals, develop real-world projects, and prepare for AI
 ## 👨‍💻 Author
 
 **Shripada Mahato**
+# Run with Docker
+
+bash
+docker build -t ai-ml .
+docker run --rm ai-ml
+
 
 > Learning one concept at a time and building toward real-world AI systems.
